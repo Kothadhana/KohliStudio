@@ -8,7 +8,50 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@media (min-width: 992px){
+   #services .container,#services .container .row{
+    margin: 0 !important;
+     padding: 0 !important;
+     right: 0;
 
+   }
+   #services .container  header{
+     margin: auto !important;
+     padding: auto !important;
+   }
+   #services .container .row{
+
+     width: 100vw;
+   }
+#services .container .row .box{
+  margin: 0 !important;
+  height: 300px;
+  width: 30vw;
+}
+}
+.service-sec .container header{
+  padding: 10px;
+}
+/*  .services-col,.services-col div{
+
+    width: 25vw !important;
+    height: auto;
+  }
+#services .container{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+  #services .container .row{
+    width: 100vw;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  #services,#services .container,#services .container .row{
+    margin: 0 !important;
+
+  }
+
+}  */
 
 #services .box:hover {
     -webkit-transform: translateY(-5px);
