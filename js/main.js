@@ -128,11 +128,11 @@
 
   $(window).on('scroll', function () {
     var cur_pos = $(this).scrollTop();
-  
+
     nav_sections.each(function() {
       var top = $(this).offset().top - main_nav_height,
           bottom = top + $(this).outerHeight();
-  
+
       if (cur_pos >= top && cur_pos <= bottom) {
         main_nav.find('li').removeClass('menu-active menu-item-active');
         main_nav.find('a[href="#'+$(this).attr('id')+'"]').parent('li').addClass('menu-active menu-item-active');
@@ -141,7 +141,7 @@
   });
 
   // Intro carousel
-  var introCarousel = $(".carousel");
+  var introCarousel = $("#introCarousel");
   var introCarouselIndicators = $(".carousel-indicators");
   introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
     (index === 0) ?
@@ -204,4 +204,3 @@
   });
 
 })(jQuery);
-
