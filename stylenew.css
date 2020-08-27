@@ -4,7 +4,20 @@ CC 2.0 License Iatek LLC 2018
 Attribution required
 
 */
+.service-sec .container{
+  margin-top: 0;
+  margin-bottom:0 ;
+}
+#call-to-action div hr{
+  background-color: white;
+  height: 2px;
+  width: 30vw;
+  max-width: 100px;
+}
+.service-main {
+  padding-left: 3px;
 
+}
 @media (min-width: 768px) {
 
     /* show 3 items */
