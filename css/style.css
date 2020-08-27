@@ -9,22 +9,9 @@
 # General
 --------------------------------------------------------------*/
 @media (min-width: 992px){
-   #services .container,#services .container .row{
-    margin: 0 !important;
-     padding: 0 !important;
-     right: 0;
 
-   }
-   #services .container  header{
-     margin: auto !important;
-     padding: auto !important;
-   }
-   #services .container .row{
+#services .container-fluid .row .box{
 
-     width: 100vw;
-   }
-#services .container .row .box{
-  margin: 0 !important;
   height: 300px;
   width: 30vw;
 }
