@@ -4,6 +4,12 @@ CC 2.0 License Iatek LLC 2018
 Attribution required
 
 */
+#services {
+    background: url(img/kohli-image.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
 .with-us-section hr{
   background-color: #28a745;
   height: 3px;
